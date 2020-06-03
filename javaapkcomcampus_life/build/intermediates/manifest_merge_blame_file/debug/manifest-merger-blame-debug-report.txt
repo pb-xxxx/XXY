@@ -1,0 +1,122 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.yhx.app.campus_life"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="11"
+8-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="16" />
+9-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:9:5-67
+11-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:9:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 判断是否有网络的权限 -->
+12-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:10:5-79
+12-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:10:22-76
+13    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+13-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:11:5-84
+13-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:11:22-81
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:12:5-81
+14-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:12:22-78
+15    <uses-permission android:name="android.permission.CALL_PHONE" />
+15-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:13:5-69
+15-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:13:22-66
+16    <uses-permission android:name="android.permission.SEND_SMS" />
+16-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:14:5-67
+16-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:14:22-64
+17
+18    <application
+18-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:16:5-52:19
+19        android:name="com.yhx.app.service.MyApplication"
+19-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:17:9-57
+20        android:allowBackup="true"
+20-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:18:9-35
+21        android:debuggable="true"
+22        android:icon="@drawable/app"
+22-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:19:9-37
+23        android:label="@string/app_name"
+23-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:20:9-41
+24        android:testOnly="true"
+25        android:theme="@android:style/Theme.Light.NoTitleBar" >
+25-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:21:9-62
+26        <activity
+26-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:22:9-32:20
+27            android:name="com.yhx.app.campus_life.MainActivity"
+27-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:23:13-64
+28            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+28-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:25:13-83
+29            android:screenOrientation="portrait"
+29-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:26:13-49
+30            android:theme="@style/StyledIndicators" >
+30-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:24:13-52
+31            <intent-filter>
+31-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:27:13-31:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:28:17-69
+32-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:28:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:30:17-77
+34-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:30:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:33:9-36:52
+38            android:name="com.yhx.app.lock.SetPasswordActivity"
+38-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:34:13-64
+39            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+39-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:35:13-83
+40            android:screenOrientation="portrait" />
+40-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:36:13-49
+41        <activity android:name="com.yhx.app.campus_life.PersonnalActivity" />
+41-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:37:9-78
+41-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:37:19-75
+42        <activity android:name="com.yhx.app.campus_life.LoginActivity" />
+42-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:38:9-74
+42-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:38:19-71
+43        <activity android:name="com.yhx.app.campus_life.UserRegisterActivity" />
+43-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:39:9-81
+43-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:39:19-78
+44        <activity android:name="com.yhx.app.campus_life.ReleaseActivity" />
+44-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:40:9-76
+44-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:40:19-73
+45        <activity android:name="com.yhx.app.campus_life.MyReleaseActivity" />
+45-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:41:9-78
+45-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:41:19-75
+46        <activity android:name="com.yhx.app.campus_life.ShopInfoActivity" />
+46-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:42:9-77
+46-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:42:19-74
+47        <activity android:name="com.yhx.app.campus_life.PicturePreview" />
+47-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:43:9-75
+47-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:43:19-72
+48        <activity android:name="com.yhx.app.campus_life.ShopListActivity" />
+48-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:44:9-77
+48-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:44:19-74
+49        <activity android:name="com.yhx.app.campus_life.LeaveMessageActivity" />
+49-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:45:9-81
+49-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:45:19-78
+50        <activity android:name="com.yhx.app.campus_life.MyMsgActivity" />
+50-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:46:9-74
+50-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:46:19-71
+51        <activity android:name="com.yhx.app.campus_life.MyCollectionActivity" />
+51-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:47:9-81
+51-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:47:19-78
+52        <activity android:name="com.yhx.app.campus_life.LookActivity" />
+52-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:48:9-73
+52-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:48:19-70
+53        <activity android:name="com.yhx.app.campus_life.MyLookActivity" />
+53-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:49:9-75
+53-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:49:19-72
+54        <activity android:name="com.yhx.app.campus_life.LookInfoActivity" />
+54-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:50:9-77
+54-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:50:19-74
+55        <activity android:name="com.yhx.app.campus_life.LookListActivity" />
+55-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:51:9-77
+55-->G:\SouceCode\javaapkcomcampus_life\src\main\AndroidManifest.xml:51:19-74
+56    </application>
+57
+58</manifest>

@@ -1,0 +1,4 @@
+#Sat May 09 16:40:00 GMT+08:00 2020
+base.0=G\:\\SouceCode\\javaapkcomcampus_life\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
